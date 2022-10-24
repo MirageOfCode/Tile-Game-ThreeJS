@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+	color: white;
+}
+
+#score {
+	position: absolute;
+	top: 5vh;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
+
+.startDiv  {
+    font-size: 3em;
+    margin: auto;
+	position: absolute;
+	top: 80vh;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+
+}
+
+.loseDiv  {
+
+    font-size: 3em;
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 35vh;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+
+}
+
+.hide {
+    display: none;
+}
